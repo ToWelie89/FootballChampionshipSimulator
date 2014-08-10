@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'HeaderFont';
+  src: url('../fonts/490936280-Eurosteal.eot');
+  src: url('../fonts/490936280-Eurosteal.eot?#iefix') format('embedded-opentype'), url('../fonts/490936280-Eurosteal.svg#Mexican fiesta') format('svg'), url('../fonts/490936280-Eurosteal.woff') format('woff'), url('../fonts/490936280-Eurosteal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #000000;
+  width: 100%;
+  overflow-x: hidden;
+}
+th,
+td {
+  padding: 0px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+p {
+  font-size: 12px;
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: #8b0000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ba2f2f;
+  text-decoration: underline;
+}
+input[type='button'] {
+  margin-left: 25px;
+  color: black;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+input[type='button']:hover {
+  background-color: #dcdcdc;
+  border: 1px solid red;
+}
+#clearButton {
+  margin-left: 10px;
+}
+#restartButton {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  float: right;
+}
+.knockoutPhaseCell div {
+  height: 19px;
+}
+.knockoutPhaseCell div span {
+  float: left;
+}
+#tournamentCompleteContainer {
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  top: 35%;
+  visibility: hidden;
+  z-index: 5;
+  padding: 25px;
+  border: 3px solid #000000;
+  border-radius: 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+div#main {
+  margin: auto;
+  width: 1280px;
+  background-color: #dcdcdc;
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid #a9a9a9;
+}
+h1#title {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'HeaderFont';
+  font-size: 32px;
+  margin-left: 15px;
+}
+h2#subtitle {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arial';
+  font-size: 12px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-style: normal;
+}
+div.groupContainer {
+  float: left;
+  margin-top: 5px;
+  padding: 3px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.groupTable p {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.groupMiddleLine {
+  padding: 0px;
+  margin: 0px;
+  width: 96%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: dashed 1px;
+}
+.groupMatchesTable p {
+  padding: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+div.upperGroupsContainer {
+  clear: both;
+}
+#groupIndexColumn {
+  width: 15px;
+}
+#groupTeamColumn {
+  width: 120px;
+}
+.groupStatColumn {
+  width: 15px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.knockoutMatchScoreBox,
+.matchScoreBox {
+  width: 25px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.knockoutMatchScoreBox {
+  margin-top: 1px;
+}
+.knockoutMatchScoreBox[disabled='disabled'] .knockoutMatchScoreBox[disabled] {
+  background-color: #a9a9a9;
+}
+.matchLine {
+  margin: 0px;
+  padding: 0px;
+}
+#groupMatchesContainers {
+  margin-top: 15px;
+}
+#knockOutPhaseTable {
+  margin-top: 15px;
+}
+#rightBracket {
+  margin-left: 5px;
+}
+#leftBracket {
+  margin-right: 5px;
+}
+#leftBracket tr td {
+  padding: 2px 0px 2px 15px;
+}
+#leftBracket .knockoutMatchScoreBox {
+  float: right;
+  margin-left: 10px;
+}
+#rightBracket tr td {
+  padding: 2px 15px 2px 0px;
+}
+#rightBracket .knockoutMatchScoreBox {
+  float: left;
+  margin-right: 10px;
+}
+.bracketTable tr td div {
+  background-color: #a9a9a9;
+  padding: 3px 8px 4px 8px;
+  border-radius: 5px;
+  min-width: 60px;
+}
+.bracketTable tr td div span {
+  color: #dcdcdc;
+}
