@@ -38,7 +38,7 @@
             </div>
 
             <h1 id="title">World Cup 2014 Calculator</h1>
-            <h2 id="subtitle">A webapplication made by <a target="_blank" href="http://se.linkedin.com/pub/martin-sonesson/47/b65/200/ms">Martin Sonesson</a> @ <a target="_blank" href="http://www.martins-web.com">martins-web</a></h2>
+            <h2 id="subtitle">A webapplication made by <a target="_blank" href="http://se.linkedin.com/pub/martin-sonesson/47/b65/200/ms">Martin Sonesson</a> @ <a target="_blank" href="http://www.martinsonesson.se">martinsonesson.se</a></h2>
             <input type="button" value="Randomize groups" id="randomizeButton" />
             <input type="button" value="Clear" id="clearButton" />
             <div id="groupTableContainers"></div>
